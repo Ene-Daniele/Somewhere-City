@@ -62,11 +62,13 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
+  color: white;
   margin-bottom: 0.5rem; }
 
 p {
   margin-top: 20px;
   font-size: medium;
+  color: white;
   margin-bottom: 1rem; }
 
 abbr[title],
@@ -129,9 +131,9 @@ a {
   min-width: 140px;
   box-shadow: 5px 0px 20px 0px rgba(0, 0, 0, 0.514);
   margin: 5px;
-  border-right: 2px solid #233db3;
+  border-right: 2px solid #bbb7ff;
   border-radius: 20px;
-  color: #233db3;
+  color: #bbb7ff;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -139,7 +141,7 @@ a {
     text-decoration: underline; }
 
 h4 {
-  color: #233db3 ;
+  color: #bbb7ff ;
 }
 a:not([href]) {
   color: inherit;
@@ -2997,7 +2999,7 @@ input[type="button"].btn-block {
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
-    color: #6c757d;
+    color: #bbb7ff;
     pointer-events: none;
     cursor: default; }
 
